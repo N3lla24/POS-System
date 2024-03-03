@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About Don Macchiatos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/Picsart_23-06-15_09-41-02-215.png</normaloff>../images/Picsart_23-06-15_09-41-02-215.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(71, 55, 39, 100%);</string>
+  </property>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>681</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 209, 160, 100%); border-radius: 10px; padding: 20px; color: rgb(71, 55, 39, 100%);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>90</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none; color: rgb(71, 55, 39, 100%); </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/Picsart_23-06-15_09-41-02-215.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>601</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none; color: rgb(71, 55, 39, 100%); </string>
+   </property>
+   <property name="text">
+    <string>Don Macchiatos is a small 39ers cafe business primarily started 
+by Nickie San Juan and her partner. They launched the business 
+by selling a ₱39.00 Iced Caramel Macchiato and they continued 
+to expand their coffee menu by releasing a matcha version of 
+the drink. They operate in small stalls scattered around 
+Cebu Province. Since their product is affordable, locals 
+are enticed to buy it especially this summer season.</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
